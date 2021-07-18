@@ -1,3 +1,231 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-color: #212121;
+  --text-white: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #f5f4fa;
+  --footer-bcg: #2f303a;
+}
+
 .body {
-  background: #e5e5e5;
+  font-family: "Roboto", Helvetica, sans-serif;
+  background-color: var(--primary-bgc);
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/*Прибирає маркери списку*/
+.list {
+  list-style: none;
+}
+
+/*Header*/
+/*Логотип*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: var(--text-white);
+}
+
+/*Навігація сайту*/
+.site-nav .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.curent {
+  color: var(--accent-color);
+}
+
+/*Контакти*/
+.header-contact {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+/*Body*/
+/*Hero*/
+.hero {
+  background-color: var(--footer-bcg);
+}
+.hero-title {
+  color: var(--text-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .order {
+  color: var(--text-white);
+  background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+/*quality*/
+.quality-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--secondary-color);
+}
+
+.quality-text {
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+/*Секція 3  business*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+}
+
+/*Секція 4  team*/
+.team {
+  background: var(--secondary-bgc);
+}
+.team-list-item {
+  background: var(--primary-bgc);
+}
+.item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  background: var(--footer-bcg);
+}
+
+.location {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--text-white);
+}
+.footer-contact {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/*Portfolio*/
+
+.hidden-title {
+  display: none;
+}
+
+/*Фільтр*/
+.filter-item {
+  background-color: var(--secondary-bgc);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.filter-item:hover,
+.filter-item:focus {
+  color: var(--text-white);
+  background-color: var(--accent-color);
+}
+
+.filter-item.curent {
+  color: var(--text-white);
+  background-color: var(--accent-color);
+}
+
+/*Проекти*/
+.project-item {
+  background-color: var(--primary-bgc);
+}
+.project-link {
+  font-family: Roboto;
+  text-decoration: none;
+}
+.project-link :hover,
+.project-link :focus {
+  visibility: visible;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-color);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
