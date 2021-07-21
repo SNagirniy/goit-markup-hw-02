@@ -99,6 +99,11 @@ body {
   cursor: pointer;
 }
 
+.hero .order :hover,
+.hero .order :focus {
+  background: #188ce8;
+}
+
 /*quality*/
 .quality-title {
   font-weight: 700;
@@ -164,6 +169,7 @@ footer {
 .footer-contact {
   font-style: normal;
   line-height: 1.71;
+  text-decoration: none;
 
   color: rgba(255, 255, 255, 0.6);
 }
